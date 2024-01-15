@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/css.css">
+    <title>Ternuritas en la Web</title>
+</head>
+
+<body>
+    <main class="contenedor contenedor-medio">
+        <br>
+        <h2>Cargar Producto</h2>
+        <br><br>
+        <form action="carga_producto.php" method="post" enctype="multipart/form-data" class="formulario-pedido">
+            <label class="label" for="nombreProducto">Nombre del Producto:</label>
+            <input class="input" type="text" name="nombreProducto" required><br>
+
+            <label class="label" for="precio">Precio:</label>
+            <input class="input" type="number" name="precio" required><br>
+
+            <label class="label" for="descripcion">Descripción del Producto:</label>
+            <input class="input" type="text" name="descripcion" required><br>
+
+            <label class="label" for="imagen">Imagen:</label>
+            <input class="input" type="file" name="imagen" required><br>
+
+            <label class="label" for="categoria">Categoria del Producto:</label>
+            <select class="input" name="categoria" id="categoria" required>
+                <option value="1">Muñeco</option>
+                <option value="2">Llavero</option>
+                <option value="3">Ramo</option>
+            </select><br>
+            <input type="submit" value="Cargar Producto">
+        </form>
+    </main>
+</body>
+
+</html>

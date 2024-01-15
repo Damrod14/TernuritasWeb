@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/css.css">
+    <title>Ternuritas en la Web</title>
+</head>
+<body>
+    <nav class="navegacion contenedor">
+        <div class="navegacion__titulo">
+            <h1>Ternuritas en la Web</h1>
+        </div>
+        <ul class="navegacion__opciones">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="nosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="iniciar_sesion.html">Iniciar sesion</a></li>
+            <li><a href="pedido.html" class="button-32">Realizar pedido</a></li>
+        </ul>
+        <div class="navegacion__usuario">
+            <div class="usuario">
+                <p id="usuario"></p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <button id="left-btn"><i class="arrow"></i></button>
+            <img id="carousel" src="" alt="Imagenes de carousel">
+            <button id="right-btn"><i class="arrow"></i></button>
+        </div>
+    </main>
+    <section class="productos-grid contenedor">
+        <article class="producto producto-article-1">
+            <h2>Peluches</h2>
+            <p>Más información</p>
+        </article>
+        <article class="producto producto-article-2">
+            <h2>Llaveros</h2>
+            <p>Más información</p>
+        </article>
+        <article class="producto producto-article-3">
+            <h2>Ramos</h2>
+            <p>Más información</p>
+        </article>
+    </section>
+    <section>
+        <article class="sobre-nosotros">
+            <div class="sobre-nosotros__img">
+                <img src="/img/logo.jpg" alt="Seccion sobre nosotros">
+            </div>
+            <div class="sobre-nosotros__texto">
+                <h2>Sobre nosotros...</h2>
+                <p>La historia detrás de "Ternuritas en la Web" es la fusión de la tradición artesanal con la innovación digital. Cada muñeco cuenta una historia única de artesanía y dedicación. La plataforma no solo vende muñecos, sino que también comparte las historias de...</p>
+                <a href="nosotros.html" class="button-32">Seguir leyendo</a>
+            </div>
+        </article>
+    </section>
+    <footer class="footer">
+        <div>
+            <img src="/img/logo.jpg" alt="Logotipo Ternuritas de Algodón">
+        </div>
+        <ul class="footer__opciones">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="nosotros.html">Sobre nosotros</a></li>
+            <li><a href="opiniones.html">Opiniones</a></li>
+        </ul>
+        <div class="footer__contacto">
+            <a href="contacto.html">Manda un mensaje directo</a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
